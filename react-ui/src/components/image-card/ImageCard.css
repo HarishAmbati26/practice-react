@@ -1,0 +1,29 @@
+.ImageCard {
+    float: 'left';
+    display: flex;
+    flex-direction: column;
+    margin: 4px;
+    padding: 4px;
+    width: 12rem;
+    height: 18rem;
+}
+
+.ImageCard-image {
+    width: 12rem;
+    height: 13rem;
+    text-align: center;
+    background-color: rgb(177, 176, 176);
+    border-radius: 4px;
+}
+
+.ImageCard-name {
+    margin-left: 4px;
+    font-size: 24px;
+}
+
+.ImageCard-type {
+    margin-top: 4px;
+    margin-left: 4px;
+    border-radius: 2px;
+    color: #000;
+}
